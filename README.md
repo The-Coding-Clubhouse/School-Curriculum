@@ -8,42 +8,34 @@ This is where all lesson content, exercises, and teaching materials are stored, 
 
 ## 🗂️ What is in this repository?
 
-This repository contains the full school curriculum organised by class, term and week. Each class folder holds a term file, a week file and a lesson file and an exercises file. Shared assets like images and worksheets are stored in the `assets/` folder.
+This repository contains the full school curriculum organised by class, term and week. Each class folder lives under `Curriculum/`, with term and week folders leading to the lesson file. Shared assets like images and worksheets can be stored in the `assets/` folder when they are needed.
 
 ```
 School-Curriculum/
 ├── README.md                        ← You are here
 ├── CONTRIBUTING.md                  ← How to make changes
 ├── LESSON_TEMPLATE.md               ← Template for new lessons
-│-- Primary one
-├── Term-1/
-│   ├── Week-01/
-│   │   ├── lesson.md                ← Lesson plan and content
-│   │   └── exercises.md             ← Student exercises
-│   ├── Week-02/
-│   │   ├── lesson.md
-│   │   └── exercises.md
-│   ├── Week-03/
-│   ├── Week-04/
-│   ├── Week-05/
-│   ├── Week-06/
-│   ├── Week-07/
-│   ├── Week-08/
-│   ├── Week-09/
-│   └── Week-10/
-│
-├── Term-2/
-│   ├── Week-01/
-│   │   ├── lesson.md
-│   │   └── exercises.md
-│   └── ... (same structure as Term 1)
-│
-├── Term-3/
-│   └── ... (same structure as Term 1)
-│
-└── assets/
-    ├── images/                      ← Diagrams, screenshots, illustrations
-    └── worksheets/                  ← Printable PDFs and extra materials
+└── Curriculum/
+    ├── primary-one/
+    │   └── term-1/
+    │       └── week-one/
+    │           └── lesson.md        ← Lesson plan and content
+    ├── Primary-two/
+    │   └── Term-1/
+    │       └── week-one/
+    │           └── lesson.md
+    ├── Primary-three/
+    │   └── Term-1/
+    │       └── Week-One/
+    │           └── Lesson.md
+    ├── primary-four/
+    │   └── Term-1/
+    │       └── week-one/
+    │           └── lesson.md
+    └── primary-five/
+        └── Term-1/
+            └── week-one/
+                └── lesson.md
 ```
 
 > **File path to create the assets folder:**
